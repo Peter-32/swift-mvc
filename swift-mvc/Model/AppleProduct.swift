@@ -13,6 +13,12 @@ class AppleProduct {
     var price: Double
     
     init(name: String, color: String, price: Double) {
-        
+        self.name = name
+        self.color = color
+        self.price = price
     }
 }
+
+let appleProduct = AppleProduct(name: "Product1", color: "White", price: 2199.99)
+
+
